@@ -12,3 +12,6 @@ const Parent = () => {
 }
 
 export default Parent
+
+
+// child to parent data bhejna  callback function se //
