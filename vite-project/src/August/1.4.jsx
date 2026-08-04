@@ -42,7 +42,7 @@ const From = () => {
          
          localStorage.setItem("users" , JSON.stringify(form))
 
-         if(Object.keys(obj).lengyh === 0){
+         if(Object.keys(obj).length === 0){
            setForm({...form,
                 email:"",
                 password:"",
