@@ -17,7 +17,7 @@ const Practice = () => {
 
   return (
     <>
-      <button onClick={() => setState(state + 1)}></button>
+      <button onClick={() => setState(state + 1)}>click</button>
       {state}
     </>
   );

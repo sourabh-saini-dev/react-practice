@@ -1,19 +1,34 @@
-import { useState } from 'react'
+import { useState} from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
-import Parent from "./August/Parent"
+import  SignUp from './August/SignUp'
+import Success from './August/Success'
+
+
+
+
 
 
 function App() {
  
 
+ 
+ 
+
   return (
-    <>
-    <Parent/>
+    
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<SignUp />} />
+        <Route path="/success" element={<Success />} />
+      </Routes>
+    </BrowserRouter>
+  
      
-    </>
+  
   )
 }
 
