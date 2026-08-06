@@ -1,6 +1,6 @@
 import React ,{useState}from 'react'
-import { useNavigate} from  'react-router-dom'
-import Success from './Success'
+
+
 
 
 const SignUp = () => {
@@ -20,14 +20,13 @@ const SignUp = () => {
     const [bio, setBio] = useState("")
      
 
-     const navigate = useNavigate()
     const  Submit=(e)=>{
         e.preventDefault()
 
-        navigate("/success",{
-            state:data
-        })
+      
     }
+    
+
 
     let data={
         name, lastname, email, password , Aadhaar, pincode,address,phone,range,dob,state, skills, file,bio
