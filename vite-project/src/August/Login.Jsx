@@ -5,7 +5,7 @@ const Login = () => {
   const [password, setPassword] = useState("");
 
   const Submit = (e) => {
-    console.log("gfgf");
+   
     e.preventDefault();
 
     let data = {
