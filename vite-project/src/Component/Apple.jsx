@@ -34,12 +34,12 @@ const Apple = () => {
 
 
           useEffect (()=>{
-         setMerge({
+         setMerge([
 
-            data: data,
-            post:post,
+            data= data,
+            postp= post,
       
-          })
+          ])
 
         //  console.log( "merge",[...data,...post])
         console.log( "Merge",merge)

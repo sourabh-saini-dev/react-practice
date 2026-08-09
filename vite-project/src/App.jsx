@@ -1,5 +1,5 @@
 import React from "react";
-  import Apple from "./Component/Apple"
+ import Merge  from "./Component/Merge"
 
 
 
@@ -7,7 +7,7 @@ function App() {
   return (
 
     <div>
-      <Apple />
+      <Merge />
     </div>
   )
 }
