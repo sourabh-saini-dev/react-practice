@@ -5,7 +5,7 @@ import React,{useState,useEffect} from 'react'
 const Merge = () => {
      const [data, setData] = useState({})
      const [ post, setPost] = useState({})
-     const [ merge, setMerge] = useState({})
+     const [ merge, setMerge] = useState([])
      const [show, setShow] = useState(true)
 
   
@@ -36,7 +36,7 @@ const Merge = () => {
 
         useEffect(()=>{
              setMerge({
-               user: data,
+               user:data ,
                post:post,
         })
               console.log("merge",merge)

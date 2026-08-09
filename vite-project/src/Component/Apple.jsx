@@ -3,7 +3,7 @@ import React,{useState, useEffect} from 'react'
 const Apple = () => {
     const [data, setData] = useState([])
     const[post, setPost] = useState([])
-    const [merge, setMerge] = useState({})
+    const [merge, setMerge] = useState([])
     const [show, setShow] = useState(true)
 
     useEffect(()=> {
@@ -36,12 +36,10 @@ const Apple = () => {
           useEffect (()=>{
          setMerge([
 
-            data= data,
-            postp= post,
-      
+             ...data, ... post,
           ])
 
-        //  console.log( "merge",[...data,...post])
+       
         console.log( "Merge",merge)
    
       },[data,post])
