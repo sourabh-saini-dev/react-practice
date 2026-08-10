@@ -49,7 +49,11 @@ const Apple = () => {
 
     
    const Submit =()=>{
-     setShow(!show)
+
+    
+         setShow(!show)
+        
+    
 
    }
 

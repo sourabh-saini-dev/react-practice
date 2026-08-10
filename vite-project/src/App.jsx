@@ -1,15 +1,12 @@
 import React from "react";
-import Test from "./Component/Test"
-
-
+import Task from "./Component/Task"
 
 function App() {
   return (
-
     <div>
-      <Test />
+      <Task />
     </div>
-  )
+  );
 }
 
 export default App;
