@@ -123,6 +123,7 @@ const Form = () => {
                 {user.Gender}
                 {user.State}
                 {user.Country}
+                {user.State}
       
       
     </div>
