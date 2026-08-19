@@ -1,10 +1,10 @@
 import React from "react";
-import Task from "./Component/Task"
+import Form from "./Practice/Form"
 
 function App() {
   return (
     <div>
-      <Task />
+      <Form/>
     </div>
   );
 }
