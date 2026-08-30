@@ -124,6 +124,7 @@ const Form = () => {
                 {user.State}
                 {user.Country}
                 {user.State}
+                {user.village}
       
       
     </div>
