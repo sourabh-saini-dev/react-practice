@@ -1,12 +1,10 @@
-import React from "react";
-import Form from "./Practice/Form"
+import { useState } from "react"
+
+import Form from "./Component/Form.jsx"
 
 function App() {
-  return (
-    <div>
-      <Form/>
-    </div>
-  );
+    return  <Form />
 }
 
-export default App;
+export default App
+
