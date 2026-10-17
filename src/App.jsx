@@ -1,9 +1,9 @@
 import { useState } from "react"
 
-import Form from "./Component/Form.jsx"
+import Form1 from "./Component/Form1.jsx"
 
 function App() {
-    return  <Form />
+    return  <Form1 />
 }
 
 export default App

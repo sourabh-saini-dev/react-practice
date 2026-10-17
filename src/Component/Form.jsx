@@ -47,6 +47,7 @@ const Form = () => {
             value={form.name}
             placeholder='enter your name'
             onChange={handleChange}
+          
             />
             <br /><br />
 
@@ -88,6 +89,7 @@ const Form = () => {
       </fieldset>
 
 
+
            {user.map((val,index)=>(
             <div key={index}>
               {index.name}
@@ -100,7 +102,7 @@ const Form = () => {
 
 
              </>
-             
+
 
   )
 }
