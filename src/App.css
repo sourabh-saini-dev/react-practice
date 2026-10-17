@@ -1,0 +1,31 @@
+#field{
+  color: rgb(24, 105, 92);
+  height: 100%;
+  background-color: red;
+ 
+
+
+}
+
+#input{
+
+  text-align: center;
+  border-radius: 5px;
+  border-style:double;
+ 
+   
+}
+
+#submit{
+    
+  
+    cursor: pointer;
+    color: blue;
+    height: 30px;
+    width: 70px;
+    color: dodgerblue;
+    background-color: blue;
+     color: azure;
+     border-radius: 10px;
+  
+}
